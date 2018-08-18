@@ -22,7 +22,6 @@ public class MyController {
                                  @RequestParam("age") int age,
                                  @RequestParam("mobile") int mobile) throws IOException {
         String s = service.saveData(name, age, mobile);
-        System.out.println("В КОНТРОЛЛЕРЕ");
         ModelAndView mav = new ModelAndView("result", "number", s);
         return mav;
     }
