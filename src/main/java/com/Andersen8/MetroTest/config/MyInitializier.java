@@ -7,7 +7,7 @@ import javax.servlet.ServletRegistration;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
-// analog web.xml
+
 public class MyInitializier {
     public void onStartup(ServletContext container) throws ServletException {
 
